@@ -2,16 +2,9 @@ import React, { Component } from 'react';
 
 class App extends Component {
     state = { displayBio: false };
-    
-    // constructor() {
-    //     super();
-    //     // must call super method to invoke constructor of parent class. Including this prevents error message saying state cannot be defined. It is now defined through inclusion of super().
-    //     this.state = { displayBio: false };
+    // setting state equal to an object containing the displayBio property set to false
+    // when reassigning state is necessary, will use this.setState() to do so
 
-    //     console.log('Component this', this);
-
-    //     this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
-    // }
 
     toggleDisplayBio = () => {
         this.setState({displayBio: !this.state.displayBio});
