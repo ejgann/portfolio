@@ -6,7 +6,18 @@ class Projects extends Component {
         return (
             <div>
                 <h2>Highlighted Projects</h2>
+                <div>
+                    {
+                        PROJECTS.map(PROJECT => {
+                            return (
+                                <div key={PROJECT.id}>{PROJECT.title}</div>
+                            );
+                        })
+                    }
+                </div>
             </div>
         )
     }
 }
+
+export default Projects;
