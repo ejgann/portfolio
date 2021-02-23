@@ -1,12 +1,12 @@
 @font-face {
     font-family: RobotoCondensed;
     src: url(assets/roboto-condensed.light.ttf);
-font-weight: 800;
+    font-weight: 800;
 }
 
 @font-face {
-    font-family: EconomicaBold;
-    src: url(assets/economica-bold.ttf);
+    font-family: Courgette;
+    src: url(assets/Courgette-Regular.ttf);
 }
 
 body {
@@ -14,10 +14,11 @@ body {
     font-size: 20px;
     padding: 2.5%;
     font-family: "RobotoCondensed";
+    background-color: #e7ecef;
 }
 
 body h1, h2, h3, h4, h5 {
-    font-family: "EconomicaBold";
+    font-family: "Courgette";
 }
 
 /* .profile {
